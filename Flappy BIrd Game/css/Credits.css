@@ -1,0 +1,74 @@
+body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url("../gif/bop.gif") center / cover no-repeat fixed; /* Replace 'your-8bit-gif.gif' with the path to your GIF */
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;  
+    
+  }
+  
+  #Menu {
+    margin: 10px auto;
+    width: 550px;
+    height: auto;
+    background-color: #333;
+    border: 3.5px solid black;
+    border-radius: 25px;
+    box-shadow: 1px 1px black;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(180deg, rgba(0, 255, 0, 0.8), rgba(50, 205, 50, 0.5), rgba(0, 255, 0, 0.8));
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0; /* Remove default padding on the ul element */
+  }
+  
+  .set{
+    margin: 10px auto; 
+    width: auto;
+    height: auto;
+    background-color: #333;
+    border: 3.5px solid black;
+    border-radius: 25px;
+    box-shadow: 1px 1px black;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(180deg,yellowgreen,lime,limegreen);
+  }
+  
+  
+  .size{
+    width: 165px;
+    height: 155px;
+    border: 3.5px solid black;
+    border-radius: 25px;
+  }
+
+  .icon {
+    width: 55px;
+    height: 55px;
+  }
+
+  .set1{
+    margin: 10px auto; 
+    width: auto;
+    height: auto;
+    background-color: #333;
+    border: 3.5px solid black;
+    border-radius: 25px;
+    box-shadow: 1px 1px black;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(180deg,yellowgreen,lime,limegreen);
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+  }
+ 
+  

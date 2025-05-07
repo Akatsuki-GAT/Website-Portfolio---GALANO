@@ -1,0 +1,83 @@
+body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url("../gif/flocks.gif") center / cover no-repeat fixed; /* Replace 'your-8bit-gif.gif' with the path to your GIF */
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;  
+}
+
+#board {
+    /* background-color: skyblue; */
+    /*background-image: url("./flappybirdbg.png");*/
+    background-image: url("../gif/city.gif");
+    border: 3.5px solid black;
+    border-radius: 25px;
+    outline: 7.55px solid skyblue;
+    outline-style: groove;
+    outline-offset: none; 
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  border: 3.5px solid black;
+  border-radius: 25px;
+  box-shadow: 1px 1px black;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  background-image: linear-gradient(180deg,green , lime , green );
+  width: 1450px;
+  height: auto;
+  margin:  0 0 0 20px;
+  
+}
+
+.topnav a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: limegreen;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.left {
+  float: left;
+  display: inline;
+  margin: 10px 0 10px 25px; /*top right bot left*/
+}
+
+.left_1 {
+  float: left;
+  display: inline;
+  margin: 10px 0 10px 55px;
+}
+
+.right {
+  float: right;
+  text-align: right;
+  margin: 10px 25px 10px 0;
+}
+
+
+
+.icon {
+  width: 150px;
+  height: 60px;
+}
+
+.title{
+  width: 250px;
+  height: 50px;
+}
