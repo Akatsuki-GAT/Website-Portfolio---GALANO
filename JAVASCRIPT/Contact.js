@@ -78,3 +78,24 @@ emailInput.addEventListener("input", () => {
       });
   }, 600);
 });
+
+//Sending Message
+
+(function() {
+  emailjs.init("fNNL1mAZBb9IYnLZr"); // Replace with your EmailJS user ID
+})();
+
+// Form submission event
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+  event.preventDefault();  // Prevent the default form submission
+
+  // Now sending the form directly using `this` (the form element)
+  emailjs.sendForm("service_1s2t698", "template_z2x5t2s", this)
+    .then(function(response) {
+      console.log("SUCCESS!", response);
+      alert("Message sent successfully!");
+    }, function(error) {
+      console.error("FAILED...", error);
+      alert("Failed to send message: " + error.text);
+    });
+});
