@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Sec</title>
     <link rel="stylesheet" href = '../CSS/ContactUs.css'>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script defer src="../JAVASCRIPT/Contact.js"></script>
-</head>
+  </head>
 <body>
     <div class = 'topnav'>
     <a class ='left' href ='../HTML/Homepage.html'>Homepage</a>
@@ -18,11 +19,10 @@
     <div id ='Menu'>
     <div class ='set'><h1>Contact Us</h1></div>
     <div class ='set1'>
-        <form class="SIGN-IN">
+        <form class="SIGN-IN" id="contact-form">
             
-        
             <div class="format">
-              <label for="fname"><b>Name:</b></label><br><br>
+              <label for="name"><b>Name:</b></label><br><br>
               <input type="text" id="name" name="name" placeholder="Enter full name here..." required>
             </div><br>
         
@@ -40,11 +40,11 @@
         
             <div class="format">
               <label for="password"><b>Message:</b></label><br><br>
-              <textarea id="textarea" name="textarea" rows="4" cols="54" placeholder="Insert message here. (Optional)"></textarea>
+              <textarea id="message" name="message" rows="4" cols="54" placeholder="Insert message here. (Optional)"></textarea>
             </div> <br>
         
             <div class="format">
-              <a href="login.html"><button type="submit" class="pass">Contact Us</button></a>
+              <button type="submit" class="pass">Contact Us</button>
             </div><br><br>
             
           </form>
